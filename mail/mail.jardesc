@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="mail.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/mail/mail.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=mail/src\/java&lt;com.sun.mail.imap"/>
+        <file path="/mail/src/java/javamail.default.address.map"/>
+        <javaElement handleIdentifier="=mail/src\/java&lt;com.sun.mail.iap"/>
+        <file path="/mail/src/java/javamail.charset.map"/>
+        <file path="/mail/src/java/javamail.smtp.provider"/>
+        <javaElement handleIdentifier="=mail/src\/java&lt;javax.mail.event"/>
+        <javaElement handleIdentifier="=mail/src\/java&lt;javax.mail.util"/>
+        <file path="/mail/src/java/javamail.imap.provider"/>
+        <javaElement handleIdentifier="=mail/src\/java&lt;com.sun.mail.pop3"/>
+        <file path="/mail/src/java/javamail.default.providers"/>
+        <file path="/mail/src/java/mailcap"/>
+        <javaElement handleIdentifier="=mail/src\/java&lt;javax.mail.internet"/>
+        <javaElement handleIdentifier="=mail/src\/java&lt;com.sun.mail.imap.protocol"/>
+        <folder path="/mail/META-INF"/>
+        <file path="/mail/src/java/javamail.smtp.address.map"/>
+        <javaElement handleIdentifier="=mail/src\/java&lt;com.sun.mail.smtp"/>
+        <file path="/mail/src/java/dsn.mf"/>
+        <javaElement handleIdentifier="=mail/src\/java&lt;javax.mail"/>
+        <javaElement handleIdentifier="=mail/src\/java&lt;com.sun.mail.dsn"/>
+        <javaElement handleIdentifier="=mail/src\/java&lt;com.sun.mail.util"/>
+        <file path="/mail/src/java/javamail.pop3.provider"/>
+        <javaElement handleIdentifier="=mail/src\/java&lt;javax.mail.search"/>
+        <javaElement handleIdentifier="=mail/src\/java&lt;com.sun.mail.handlers"/>
+    </selectedElements>
+</jardesc>

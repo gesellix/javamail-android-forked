@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="activation.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/activation/activation.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <folder path="/activation/META-INF"/>
+        <javaElement handleIdentifier="=activation/src\/java&lt;javax.activation"/>
+        <javaElement handleIdentifier="=activation/src\/java&lt;com.sun.activation.registries"/>
+        <file path="/activation/src/java/mimetypes.default"/>
+        <file path="/activation/src/java/mailcap.default"/>
+    </selectedElements>
+</jardesc>
